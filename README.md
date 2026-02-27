@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Meo Meo Logger" width="200" />
+  <img src="https://github.com/khapu2906/meo-meo-logger/blob/main/assets/logo.png?raw=true" alt="Meo Meo Logger" width="200" />
 
   # meo-meo-logger
 
@@ -32,23 +32,30 @@ CoreLogger.error('DB connection failed', { err: new Error('ECONNREFUSED') });
 
 ## Table of contents
 
-- [Log levels](#log-levels)
-- [Output modes](#output-modes)
-- [Configure](#configure)
-- [Scope](#scope)
-- [Child logger](#child-logger)
-- [Timer](#timer)
-- [Transports](#transports)
-  - [TransportConfig](#transportconfig)
-  - [Batching](#batching)
-  - [Filtering](#filtering)
-  - [Rate limiting](#rate-limiting)
-  - [Retry](#retry)
-  - [Graceful shutdown](#graceful-shutdown)
-- [PrettyLogger (Node only)](#prettylogger-node-only)
-- [Browser](#browser)
-- [Environment variables](#environment-variables)
-- [TypeScript types](#typescript-types)
+- [meo-meo-logger](#meo-meo-logger)
+  - [Installation](#installation)
+  - [Quick start](#quick-start)
+  - [Table of contents](#table-of-contents)
+  - [Log levels](#log-levels)
+  - [Output modes](#output-modes)
+  - [Configure](#configure)
+  - [Scope](#scope)
+  - [Child logger](#child-logger)
+  - [Timer](#timer)
+  - [Transports](#transports)
+    - [Basic transport](#basic-transport)
+    - [TransportConfig](#transportconfig)
+    - [Batching](#batching)
+    - [Filtering](#filtering)
+    - [Rate limiting](#rate-limiting)
+    - [Retry](#retry)
+    - [Graceful shutdown](#graceful-shutdown)
+    - [addTransport with config](#addtransport-with-config)
+  - [PrettyLogger (Node only)](#prettylogger-node-only)
+  - [Browser](#browser)
+  - [Environment variables](#environment-variables)
+  - [TypeScript types](#typescript-types)
+    - [Error serialization](#error-serialization)
 
 ---
 
