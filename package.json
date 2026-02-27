@@ -1,6 +1,6 @@
 {
 	"name": "meo-meo-logger",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Pretty + structured logger for Node.js and browser with JSON support and scoping",
 	"license": "DIB",
 	"keywords": [
