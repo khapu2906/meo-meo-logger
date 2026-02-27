@@ -1,0 +1,51 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"lib": [
+			"ES2020"
+		],
+		"strict": true,
+		"exactOptionalPropertyTypes": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"outDir": "dist",
+		"rootDir": "lib",
+		"baseUrl": ".",
+		"paths": {
+			"@shared/*": [
+				"lib/shared/*"
+			],
+			"@utils/*": [
+				"lib/utils/*"
+			],
+			"@core/*": [
+				"lib/core/*"
+			],
+			"@browser/*": [
+				"lib/browser/*"
+			],
+			"@pretty/*": [
+				"lib/pretty/*"
+			],
+			"@types/*": [
+				"lib/types/*"
+			]
+		}
+	},
+	"include": [
+		"lib"
+	],
+	"exclude": [
+		"node_modules",
+		"dist",
+		"tests"
+	]
+}

@@ -1,0 +1,11 @@
+lib/
+tests/
+.github/
+*.test.ts
+tsconfig*.json
+.eslintrc.json
+.prettierrc
+.nvmrc
+coverage/
+tsup.config.ts
+vitest.config.ts

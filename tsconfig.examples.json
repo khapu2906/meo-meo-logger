@@ -1,0 +1,15 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"rootDir": ".",
+		"paths": {
+			"@shared/*": ["lib/shared/*"],
+			"@utils/*": ["lib/utils/*"],
+			"@core/*": ["lib/core/*"],
+			"@browser/*": ["lib/browser/*"],
+			"@pretty/*": ["lib/pretty/*"]
+		}
+	},
+	"include": ["lib", "examples"]
+}
